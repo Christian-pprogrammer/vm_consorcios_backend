@@ -10,11 +10,11 @@ import { SaleFormRegistration } from "./entity/SaleFormRegistration";
 
 export const AppDataSource = new DataSource({
   type: "postgres",
-  host: "localhost",
+  host: "kashin.db.elephantsql.com",
   port: 5432,
-  username: "postgres",
-  password: "qufqjrtjrj",
-  database: "postgres",
+  username: "nshjmzam",
+  password: "SOL8xdcEkf4QYfOaDFhJAJvI1Y-FTYIu",
+  database: "nshjmzam",
   synchronize: true,
   logging: false,
   entities: [
